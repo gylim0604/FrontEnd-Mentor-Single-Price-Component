@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
+body {
+  min-height: 100vh;
+  background-color: #e5eff5;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-size: 16px;
+  padding: 5rem 2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.top {
+  background: white;
+}
+
+.top h1 {
+  font-size: 1.5rem;
+  color: #2ab2af;
+}
+
+.top h3 {
+  color: #c0df34;
+  padding: 1rem 0;
+}
+
+.top p {
+  color: #98a6bd;
+  line-height: 1.5rem;
+}
+
+.bottom {
+  color: white;
+}
+
+.cta {
+  background: #2ab2af;
+}
+
+.cta h1 {
+  font-size: 1.5rem;
+}
+
+.cta .cta-text {
+  padding: 2rem 0;
+}
+
+.cta .cta-text .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+.cta .cta-text .price span {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.cta a {
+  border-radius: 10px;
+  background: #c0df34;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 0;
+  display: block;
+}
+
+.benefits {
+  background: #2fc6c4;
+}
+
+.benefits ul {
+  padding-top: 2rem;
+}
+
+.benefits ul li {
+  color: rgba(255, 255, 255, 0.6);
+  padding: .25rem 0;
+}
+/*# sourceMappingURL=styles.css.map */

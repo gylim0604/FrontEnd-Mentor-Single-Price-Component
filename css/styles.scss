@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+$karla: 'Karla', sans-serif;
+$karla-bold: 700;
+$karla-normal: 400;
+// Colors
+$cyan: hsl(179, 62%, 43%);
+$yellow: hsl(71, 73%, 54%);
+
+$light-gray: hsl(204, 43%, 93%);
+$gray-blue: hsl(218, 22%, 67%);
+$white: hsl(0, 0, 100%);
+$light-white: rgba(255,255,255,0.6);
+
+body {
+    min-height: 100vh;
+    background-color: $light-gray;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+    padding: 5rem 2rem;
+    font-family: $karla;
+    font-weight: 300;
+}
+
+.content {
+    // display: grid;
+    // grid-template-rows: 40% 30% 30%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    // min-height: 90vh;
+    // width: 90vw;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+.card {
+    padding: 2rem;
+}
+.top {
+    background: $white;
+    h1 {
+        font-size: 1.5rem;
+        color: $cyan;
+    }
+    h3 {
+        color: $yellow;
+        padding: 1rem 0;
+    }
+    p {
+        color: $gray-blue;
+        line-height: 1.5rem;
+    }
+}
+
+.bottom {
+    color: $white;
+    
+}
+
+.cta {
+    
+    background: $cyan;
+    h1 {
+        font-size: 1.5rem;
+    }
+    .cta-text{
+        padding: 2rem 0;
+        .price {
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            span {
+                color: rgba(255, 255, 255, 0.6);
+                padding: 0 1rem;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    a {
+        border-radius: 10px;
+        background: $yellow;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-align: center;
+        padding: 1rem 0;
+        display: block;
+    }
+}
+.benefits {
+    background: lighten($cyan, 5%);
+    h1{
+    }
+    ul{
+        padding-top: 2rem;
+        li{
+            color: $light-white;
+            padding: .25rem 0;
+        }
+    }
+}
