@@ -70,7 +70,7 @@ body {
 }
 
 .cta .cta-text p {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
 }
 
 .cta .cta-text .price {
@@ -117,7 +117,7 @@ body {
 
 .benefits ul li {
   color: rgba(255, 255, 255, 0.6);
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   display: inline-block;
 }
 
@@ -127,8 +127,8 @@ body {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 45% 55%;
-        grid-template-rows: 45% 55%;
+    -ms-grid-rows: 45% 56%;
+        grid-template-rows: 45% 56%;
     max-width: 768px;
   }
   .card {
